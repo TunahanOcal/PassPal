@@ -1,0 +1,18 @@
+div.header2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+h1.header2 {
+  color: #1c5f71;
+  vertical-align: middle;
+}
+h5.header2 {
+  vertical-align: middle;
+  font-style: italic;
+  padding-bottom: 15px;
+  padding-top: 20px;
+  color: #0e3742;
+}

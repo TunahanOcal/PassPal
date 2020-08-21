@@ -1,0 +1,15 @@
+.interactive-table .table .header {
+  background-color: #1c5f71;
+}
+
+.interactive-table .table .header:hover {
+  background-color: #0e3742;
+}
+
+.interactive-table .pagination-container .pagination-control {
+  background-color: #1c5f71;
+}
+
+.interactive-table .pagination-container .pagination-control:hover {
+  background-color: #0e3742;
+}

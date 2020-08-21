@@ -1,0 +1,88 @@
+.comptTable{
+    border: black!important;
+
+}
+
+.passSelector{
+    background-color: #cec2eb!important;
+}
+
+.table-head-selector{
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: auto;
+}
+.selector1{
+    width: 120px;
+    height: 60px;
+}
+.selector2{
+    width: 60px;
+    height: 40px;
+}
+
+.code{
+    vertical-align: middle;
+    text-align: center;
+}
+
+td.VF{
+    background-color: #9AD14D;
+}
+
+
+td.VOA{
+    background-color: #3C91E6;
+}
+
+td.ETA{
+    background-color: #F5B841;
+}
+
+td.VR{
+    background-color: #CF5C36;
+}
+
+
+div.headerBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+
+
+.headerBox > div:first-child{
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 100px;
+}
+
+
+.headerBox > div{
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 125px;
+}
+
+div.countryName{
+    vertical-align: middle;
+    text-align: left;
+    font-weight: bold;
+    font-size: 35px;
+    padding-top:25px;
+}
+
+div.mobilityScore{
+    font-style: italic;
+    vertical-align: bottom;
+    text-align: left;
+    padding-top:15px;
+    font-size: px;
+    color: rgb(156, 156, 156);
+}
+
+
+.mytooltip .tooltip-inner {
+    max-width: 400px;
+}

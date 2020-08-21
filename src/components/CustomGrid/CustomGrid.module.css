@@ -1,0 +1,111 @@
+h1 {
+  margin: 2.5rem 0 1.5rem 1.5rem;
+  font-weight: 1000;
+  color: #333;
+  border-bottom: 2px solid #1c5f71;
+  width: 96%;
+  padding-top: 20px;
+}
+
+.modalContent {
+  position: relative;
+  top: 35rem;
+}
+
+.modalContent:focus {
+  outline: none !important;
+}
+
+.modalBackground {
+  z-index: -2;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.85);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.modalImage {
+  position: absolute !important;
+  top: 40% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%);
+}
+
+.image {
+  width: 100%;
+  max-width: 140px;
+  height: 200px;
+}
+
+.prevBtn {
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  color: white;
+}
+
+.nextBtn {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  color: white;
+}
+
+.paper {
+  height: '100%';
+}
+
+.countryName {
+  width: 140px;
+  margin-top: 1rem;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+  top: 85%;
+  width: 50%;
+  margin: 1rem auto;
+}
+
+.data {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+  background-color: transparent !important;
+  color: #f56565 !important;
+}
+
+.data h6 {
+  color: #f9f9f9 !important;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  opacity: 0.6;
+}
+
+div.header2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-left: 35%;
+}
+
+h1.header2 {
+  color: #1c5f71 !important;
+  vertical-align: center;
+}
+h5.header2 {
+  font-style: italic;
+  padding-top: 20px;
+  color: #0e3742 !important;
+}
