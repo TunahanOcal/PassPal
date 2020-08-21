@@ -93,7 +93,7 @@ h1 {
   opacity: 0.6;
 }
 
-div.header2 {
+.root.header2 {
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
@@ -103,9 +103,12 @@ div.header2 {
 h1.header2 {
   color: #1c5f71 !important;
   vertical-align: center;
+  text-align: center;
 }
 h5.header2 {
   font-style: italic;
-  padding-top: 20px;
+  padding-top: 20px;  
+  vertical-align: center;
+  text-align: center;
   color: #0e3742 !important;
 }

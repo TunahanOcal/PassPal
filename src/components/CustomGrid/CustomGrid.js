@@ -128,15 +128,16 @@ const CustomGrid = ({ data }) => {
 
   return (
     <div className={classes.root}>
+      <div className={styles.header2}>
+          <h1 className={styles.header2}>Explore passports</h1>
+          <h5 className={styles.header2}>
+                Find and learn more about different passports
+          </h5>
+      </div>
       <Grid container spacing={3} style={{ marginTop: '1rem' }}>
         {_.map(groupedPassports, (continentPassports, continentName) => (
           <React.Fragment key={continentName}>
-            <div className={styles.header2}>
-              <h1 className={styles.header2}>Explore passports</h1>
-              <h5 className={styles.header2}>
-                Find and learn more about different passports
-              </h5>
-            </div>
+
             <h1 style={{ color: '#1c5f71' }}>{continentName}</h1>
             <Grid container item spacing={3} xs={12} md={12}>
               <FormRow passports={continentPassports} />
