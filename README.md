@@ -1,68 +1,135 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 2020 Bootcamp Team 8 - `<PassPAL>`
 
-## Available Scripts
+## Team Members
 
-In the project directory, you can run:
+| Role               | Name               | Contact            |
+|--------------------|--------------------|--------------------|
+| Backend Developper, Frontend Developper, DB Manager | Tunahan Öcal| [![LinkedIn][linkedin-shield-to]][linkedin-url-to]|
+| Frontend Developper | Mahmut Furkan Kara | [![LinkedIn][linkedin-shield-mfk]][linkedin-url-mfk]|
+| Backend Developper, Frontend Developper | Miray Suzan Şenyüz | [![LinkedIn][linkedin-shield-mss]][linkedin-url-mss]|
+| Frontend Developper | Ezgi İmamoğlu      | [![LinkedIn][linkedin-shield-ei]][linkedin-url-ei]|
+| Frontend Developper | Poyraz Özmen       | [![LinkedIn][linkedin-shield-po]][linkedin-url-po]|
 
-### `npm start`
+<br />
+<p align="center">
+    <img src="logo.jpeg" width ="120px" text-align="center"/>
+  
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <h2 align="center">PassPal</h2>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+  <p align="center">
+    Have you ever wondered about passports?Take a look at it!
+    
+   <p align="center">
+    <a href="https://passportapp.azurewebsites.net" target="_blank">Checkout PassPal</a>
+  
+<!-- TABLE OF CONTENTS -->
+  
+## Table of Contents
 
-### `npm test`
+* [About the Project](#about-the-project)
+  * [Built With](#built-with)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+* [Usage](#usage)
+  * [Explore Page](#explore-page)
+  * [Compare Page](#compare-page)
+  * [Rank Page](#rank-page)
+* [Acknowledgements](#acknowledgements)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## About The Project
 
-### `npm run build`
+  This project, named **PassPal**, is used to see the power and rank of mobility score of each country's passport. The mobility score is defined as the number of countries a citizen can enter without a visa. Users can see passports divided between countries, passports of the world ranked by their total mobility score and comparing different passports.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Here's why you want to use this website:
+* *Wanna travel but don't know if a visa is required for the country*
+* *Wanna find more about passports*
+* *or just Curious about passports*
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+**This project is a shortcut for all**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Built With 
+This section includes the tools and frameworks that we have used
 
-### `npm run eject`
+* [ReactJS](https://reactjs.org/)
+* [Redux-Saga](https://redux-saga.js.org/)
+* [Java SE](https://www.oracle.com/java/technologies/)
+* [MySQL](https://www.mysql.com/)
+* [Python](https://www.python.org/)
+* [Eclipse IDE](https://www.eclipse.org/eclipseide/)
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [Bootstrap](https://getbootstrap.com)
+* [Material UI](https://material-ui.com/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Let's set up PassPal locally
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Prerequisites
+*Make sure that you have* 
+* Node.js and npm
+* Java 11
+* MySQL
 
-## Learn More
+### Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone the repo
+```sh
+git clone https://github.com/eteration-bootcamp/2020-bootcamp-team-8.git
+```
+2. Install NPM packages
+```sh
+npm install
+```
+3. Run the project
+```sh
+npm start
+```
+## Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Explore Page
 
-### Code Splitting
+<p align="center">
+    <img src="ss/explore.png" width ="500px" text-align="center"/>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Here, you see the individual passports all around the world categorized by continents.
+When you click any passport you see the some numbers at the bottom of the page.
 
-### Analyzing the Bundle Size
+`Visa-Free` means the person that have selected passport can go that countries without Visa
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+`Visa On Arrival` means the person that have selected passport should take the Visa on arrival(after landing). 
 
-### Making a Progressive Web App
+`Visa Required` means the person that have selected passport should take the Visa before travel. 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+### Compare Page
 
-### Advanced Configuration
+<p align="center">
+    <img src="ss/compare.png" width ="500px" text-align="center"/>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+This page is quite interesting.Here you can compare the passports according to visa requirement type . Also you can see the details of numbers that you've seen on the explore page.You can compare up to 4 passports.
 
-### Deployment
+`Just select a passpaort then you will get what is going to be happen`
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+### Rank Page
 
-### `npm run build` fails to minify
+<p align="center">
+    <img src="ss/rank.png" width ="500px" text-align="center"/>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Here you will see How strong your pass is ! 
+
+## Acknowledgements
+
+We would like to thank `Eteration` for giving us a chance at this bootcamp, `all our teachers` for training us and our `mentor` who helped us, `HR Team` for notifying us everyday.:heart: 
+
+[linkedin-url-mfk]: https://www.linkedin.com/in/mahmut-furkan-kara-9b41261a2
+[linkedin-shield-mfk]: https://img.shields.io/badge/%20-Mahmut%20Furkan%20Kara-black.svg?style=plastic&logo=linkedin&color=important
+[linkedin-url-mss]:https://www.linkedin.com/in/miray-senyuz-1459141a0/
+[linkedin-shield-mss]:https://img.shields.io/badge/%20-Miray%20Suzan%20%C5%9Eeny%C3%BCz-black.svg?style=plastic&logo=linkedin&color=brightgreen
+[linkedin-url-to]:https://www.linkedin.com/in/tunahanocal/
+[linkedin-shield-to]:https://img.shields.io/badge/%20-Tunahan%20%C3%96cal-black.svg?style=plastic&logo=linkedin&color=blue
+[linkedin-url-ei]:https://www.linkedin.com/in/ezgi-imamo%C4%9Flu-17295815b/
+[linkedin-shield-ei]:https://img.shields.io/badge/%20-Ezgi%20%C4%B0mamo%C4%9Flu-black.svg?style=plastic&logo=linkedin&color=blueviolet
+[linkedin-url-po]:https://www.linkedin.com/in/poyraz-ozmen/
+[linkedin-shield-po]:https://img.shields.io/badge/%20-Poyraz%20%C3%96zmen-black.svg?style=plastic&logo=linkedin&color=yellow
